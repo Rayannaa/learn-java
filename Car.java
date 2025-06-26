@@ -1,19 +1,18 @@
-package l23;
+package l29;
 
+// for L30
 public class Car {
-	// define attributes
-	String make = "Chevrolet";
-	String model = "Corvette";
-	int year = 2020;
-	String color = "blue";
-	double price = 50000.00;
 	
-	// define methods
-	void drive() {
-		System.out.println("You drive the car");
-	}
-	void brake() {
-		System.out.println("You step on the brakes");
-	}
+	String make = "Ford";
+	String model = "Mustang";
+	String color = "red";
+	int year = 2021;
 	
+	// override the toString method
+	public String toString() {
+		// must return a string
+		return make + "\n" + model + "\n" + color + "\n" + year;
+
+	}
+
 }
