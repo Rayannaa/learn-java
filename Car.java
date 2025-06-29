@@ -1,18 +1,11 @@
-package l29;
+package l32objectPassing;
 
-// for L30
+//L32
 public class Car {
+	String name;
 	
-	String make = "Ford";
-	String model = "Mustang";
-	String color = "red";
-	int year = 2021;
-	
-	// override the toString method
-	public String toString() {
-		// must return a string
-		return make + "\n" + model + "\n" + color + "\n" + year;
-
+	Car(String name){
+		this.name = name;
 	}
 
 }
