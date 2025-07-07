@@ -1,10 +1,9 @@
-package l43Static;
-// L44
-public class Animal extends Organism{
+package l46;
+
+public class Animal {
 	
-	
-	void eat() {
-		System.out.println("Eating...");
+	void move() {
+		System.out.println("running");
 	}
 
 }
