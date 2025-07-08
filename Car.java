@@ -1,11 +1,10 @@
-package l32objectPassing;
+package l50;
 
-//L32
-public class Car {
-	String name;
+public class Car extends Vehicle{
 	
-	Car(String name){
-		this.name = name;
+	@Override
+	void go() {
+		System.out.println("driving a car");
 	}
 
 }
