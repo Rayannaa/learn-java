@@ -1,11 +1,15 @@
-package l46;
+package l49;
 
-public class Fish extends Animal{
-	// method overriding since fish don't run
+public class Fish implements Prey, Predator{
+	// can be considered both prey and predator
 	
 	@Override
-	void move() {
-		System.out.println("swimming");
+	public void flee() {
+		System.out.println("the fish is swimming away");
 	}
-
+	
+	@Override
+	public void hunt() {
+		System.out.println("the fish is hunting");
+	}
 }
