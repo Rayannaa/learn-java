@@ -1,9 +1,7 @@
-package l46;
+package l50;
 
-public class Animal {
+public abstract class Animal {
 	
-	void move() {
-		System.out.println("running");
-	}
+	abstract void speak();
 
 }
